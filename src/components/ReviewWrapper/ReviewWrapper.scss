@@ -1,0 +1,21 @@
+@import '../../scss/base/colors';
+
+.review-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 75px 0 65px;
+
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $lightgrey;
+  }
+
+  .review-user-details-container {
+    flex: 1;
+    margin-left: 32px;
+  }
+
+  .review-details-container {
+    flex: 3;
+  }
+}
