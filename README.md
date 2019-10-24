@@ -1,6 +1,19 @@
-# Superformula Code Challenge - Matt Nihiser
+This was originally for an interview code challenge, and am now using it for showcase
+where my current skills are and what new technologies I am learning.
 
-This is my submission for the Front-end (UI Focused) position. 
+# TODO
+- [ ] Breakup business logic
+- [ ] Clean up Hooks, utilize reducers
+- [ ] Get `fetchMore` working
+- [ ] Find better implementation for current global state
+- [ ] Fix rerendering issues
+- [ ] Update to `TypeScript`
+- [ ] Clean up Restaurant Page
+- [ ] Clean up styles - Full BEM (not currently consistent)
+- [ ] Clean up webpack
+- [ ] Remove `Spacer` and add functionality to `Divider`
+- [ ] Linting
+- [ ] Find add-on for line termination (;)
 
 ## Running locally
 ### Website
@@ -11,24 +24,9 @@ This is my submission for the Front-end (UI Focused) position.
 ### Storybook
 - `npm run storybook`
 
-### Tests
-- `npm run test`
-
-## Examples on the web
-
-[Live Site](https://matt-nihiser-challenge.mattnihiser.now.sh)
-
-[Storybook](https://sb-live.mattnihiser.now.sh)
-
 
 ### Tech stack
 
 - React w/ Hooks (16.9)
 - SCSS is my preference
 - Apollo / GraphQL
-- Jest / Enzyme
-- Now for CI
-
-
-## Notes
-This was a fun challenge! Thank you for the opportunity to take it on, and look forward to hearing what you think!

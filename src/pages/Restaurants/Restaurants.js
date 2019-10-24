@@ -15,11 +15,9 @@ import './Restaurants.scss';
 const subtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
 const Restaurants = () => {
-  const [globalState, setGlobalState] = useGlobalHook();
+  const [globalState, ] = useGlobalHook();
   const [showChild, setShowChild] = useState(false);
 
-  // This helps from react trying to update the
-  // cardlist component BEFORE it mounts
   useEffect(() => { setShowChild(true); }, [])
 
   return (
