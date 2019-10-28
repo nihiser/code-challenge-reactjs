@@ -1,5 +1,11 @@
-This was originally for an interview code challenge, and am now using it for showcase
-where my current skills are and what new technologies I am learning.
+This was originally for an interview code challenge that I am now using it for continuous learning.
+
+
+### Tech stack
+
+- React w/ Hooks (16.9) (TypeScript in the future, I am currently using `prop-types`)
+- SCSS 
+- Apollo / GraphQL
 
 # TODO
 - [ ] Breakup business logic
@@ -8,6 +14,7 @@ where my current skills are and what new technologies I am learning.
 - [ ] Find better implementation for current global state
 - [ ] Fix rerendering issues
 - [ ] Update to `TypeScript`
+- [ ] Get obfuscation working for CSS classes with SCSS
 - [ ] Clean up Restaurant Page
 - [ ] Clean up styles - Full BEM (not currently consistent)
 - [ ] Clean up webpack
@@ -23,10 +30,3 @@ where my current skills are and what new technologies I am learning.
 
 ### Storybook
 - `npm run storybook`
-
-
-### Tech stack
-
-- React w/ Hooks (16.9)
-- SCSS is my preference
-- Apollo / GraphQL
