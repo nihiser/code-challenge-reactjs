@@ -1,5 +1,7 @@
 This was originally for an interview code challenge that I am now using it for continuous learning.
 
+Additionally, I will be utilizing many of GitHub's project features and wiki. Updates will be done using PRs.
+
 
 ### Tech stack
 
