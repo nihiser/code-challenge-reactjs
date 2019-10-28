@@ -1,7 +1,7 @@
 {
-  "name": "react-hooks-apollo-graphql",
+  "name": "skills-builder",
   "version": "1.0.0",
-  "description": "A test page for presenting Yelp reviews.",
+  "description": "A playground.",
   "author": "Matt Nihiser",
   "main": "index.js",
   "scripts": {
