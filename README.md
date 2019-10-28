@@ -3,7 +3,7 @@ This was originally for an interview code challenge that I am now using it for c
 
 ### Tech stack
 
-- React w/ Hooks (16.9) (TypeScript in the future, I am currently using `prop-types`)
+- React (not CRA) w/ Hooks (16.9) (TypeScript in the future, currently using `prop-types`)
 - SCSS 
 - Apollo / GraphQL
 
