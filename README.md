@@ -1,4 +1,4 @@
-This was originally for an interview code challenge that I am now using it for continuous learning.
+This was originally for an interview code challenge: https://github.com/Superformula/frontend-test
 
 Additionally, I will be utilizing many of GitHub's project features and wiki. Updates will be done using PRs.
 
