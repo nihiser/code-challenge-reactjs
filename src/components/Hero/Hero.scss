@@ -1,15 +1,6 @@
 @import "../../scss/base/typography";
 
-.hero {
-  @include font-light;
-  font-size: 54px;
-  letter-spacing: 1px;
-  line-height: 64px;
-  margin: 0 0 16px;
-  width: 100%;
-}
-
-.subtext {
+.hero-subtext {
   @include font-light;
   display: block;
   font-size: 20px;

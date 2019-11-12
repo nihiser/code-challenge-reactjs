@@ -6,16 +6,15 @@ import Spacer from "../Spacer/Spacer";
 
 import "./Hero.scss";
 
-const Hero = props => {
-  const { children, subtext, subcomponent } = props;
+const Hero = ({ heading, subtext, subcomponent }) => {
 
   return (
     <>
-      <Heading level={1}>{children}</Heading>
+      <Heading level={1}>{heading}</Heading>
       {subtext && (
         <>
           <Spacer size="medium" />
-          <h3 className="subtext">
+          <h3 className="hero-subtext">
             {subtext}
           </h3>
         </>
@@ -26,6 +25,7 @@ const Hero = props => {
 };
 
 Hero.propTypes = {
+  heading: PropTypes.string,
   subtext: PropTypes.string,
   subcomponent: PropTypes.node
 };

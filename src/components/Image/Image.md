@@ -5,5 +5,6 @@ The `Image` component is a container that consumes a source image and displays i
 
 | prop | type | options | required |
 | --- | --- | --- | --- |
+|alt | `string` || ✅|
 | source | `string` || ✅|
-| `small` |` bool` |||
+| userImg | `bool` | | |
